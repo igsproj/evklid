@@ -1,0 +1,118 @@
+/* fonts */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  src:  url('../fonts/Montserrat/woff/Montserrat-Regular.woff2') format('woff2'),
+        url('') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  src:  url('../fonts/Montserrat/woff/Montserrat-Medium.woff2') format('woff2'),
+        url('') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  src:  url('../fonts/Montserrat/woff/Montserrat-SemiBold.woff2') format('woff2'),
+        url('') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  src:  url('../fonts/Montserrat/woff/Montserrat-Bold.woff2') format('woff2'),
+        url('') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  src:  url('../fonts/Montserrat/woff/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('') format('woff');
+}
+
+/* 400 */
+
+.font-400x16x32 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.font-400x18x22 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.font-400x48x59 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+/* 500  */
+
+.font-500x18x22 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* 600 */
+
+.font-600x18x22 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.font-600x18x36 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+/* 700  */
+
+.font-700x16x20 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.font-700x16x32 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.font-700x24x29 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.font-700x24x32 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.font-700x23x28 {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+/* 800 */
+
+.font-800x70x85 {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 85px;
+}

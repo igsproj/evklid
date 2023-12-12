@@ -1,0 +1,178 @@
+/* hover from 1200px and more  */
+/* @media (min-width: 1200px) { */
+
+/* focus visible  */
+
+.faq__details:focus-visible {
+  border-color: var(--palette-c5);
+  z-index: 1;
+}
+
+.faq__details:focus-visible .faq__question {
+  color: var(--palette-c5);
+}
+
+.faq__details:focus-visible .faq__crest ellipse {
+  fill: var(--palette-c5);
+}
+
+.faq__details:focus-visible .faq__crest path {
+  fill: var(--palette-c1);
+}
+
+.state-btn1:focus-visible {
+  background-color: var(--palette-c8);
+}
+
+.state-btn2:focus-visible {
+  background-color: var(--palette-c5);
+}
+
+.state-btn3:focus-visible {
+  background-color: var(--palette-c9);
+  border-color: var(--palette-c9);
+  color: var(--palette-c1);
+}
+
+.burger-control:focus-visible,
+.top-menu__nav-link:focus-visible,
+.top-menu__search:focus-visible,
+.how-we-work__step:focus-visible,
+.how-we-work__control:focus-visible,
+.footer__nav-item:focus-visible,
+.footer__social-link:focus-visible {
+  outline: 2px solid var(--palette-c5);
+  outline-offset: 5px;
+}
+
+.footer__input:focus-visible {
+  background-color: var(--palette-c9);
+}
+
+ /* active  */
+
+ .top-menu__burger-menu:active:not(:focus-visible) rect {
+  fill: var(--palette-c7);
+}
+
+.top-menu__nav-link:active:not(:focus-visible) {
+  color: var(--palette-c7);
+}
+
+.top-menu__nav-link:active:not(:focus-visible):before {
+  opacity: 1;
+  transform: scale(1);
+  background-color: var(--palette-c7);
+}
+
+.top-menu__search:active:not(:focus-visible) {
+  outline: none;
+}
+
+.top-menu__search:active:not(:focus-visible) svg rect {
+  fill: var(--palette-c2);
+}
+
+.top-menu__search:active:not(:focus-visible) svg path {
+  stroke: var(--palette-c2);
+}
+
+.top-menu__search:active:not(:focus-visible) svg circle {
+  stroke: var(--palette-c2);
+}
+
+.state-btn1:active:not(:focus-visible) {
+  background-color: var(--palette-c7);
+}
+
+.state-btn2:active:not(:focus-visible) {
+  background-color: var(--palette-c7);
+  border-color: var(--palette-c7);
+}
+
+.state-btn3:active:not(:focus-visible) {
+  background-color: var(--palette-c2);
+  color: var(--palette-c1);
+}
+
+.how-we-work__step:active:not(:focus-visible),
+.footer__nav-item:active:not(:focus-visible) {
+  color: var(--palette-c7);
+}
+
+.footer__social-link:active:not(:focus-visible) svg path {
+  fill: var(--palette-c7);
+}
+
+.footer__input:active:not(:focus-visible) {
+  background-color: var(--palette-c9);
+  color: var(--palette-c1);
+}
+
+/* hover  */
+
+.faq__details:hover:not(:focus-visible) {
+  border-color: var(--palette-c5);
+  z-index: 1;
+}
+
+.faq__details:hover:not(:focus-visible) .faq__question {
+  color: var(--palette-c5);
+}
+
+.faq__details:hover:not(:focus-visible) .faq__crest ellipse {
+  fill: var(--palette-c5);
+}
+
+.faq__details:hover:not(:focus-visible) .faq__crest path {
+  fill: var(--palette-c1);
+}
+
+.top-menu__nav-link:hover:not(:focus-visible):before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.top-menu__search:hover:not(:focus-visible) rect {
+  fill: var(--palette-c5);
+}
+
+.top-menu__search:hover:not(:focus-visible) path {
+  stroke: var(--palette-c5);
+}
+
+.top-menu__search:hover:not(:focus-visible) circle {
+  stroke: var(--palette-c5);
+}
+
+.state-btn1:hover:not(:focus-visible) {
+  background-color: var(--palette-c8);
+}
+
+.state-btn2:hover:not(:focus-visible) {
+  background-color: var(--palette-c5);
+}
+
+.state-btn3:hover:not(:focus-visible) {
+  background-color: var(--palette-c9);
+  border-color: var(--palette-c9);
+  color: var(--palette-c1);
+}
+
+.how-we-work__step:hover:not(:focus-visible),
+.footer__nav-item:hover:not(:focus-visible) {
+  color: var(--palette-c5);
+}
+
+.how-we-work__control:hover:not(:focus-visible) {
+  outline: 3px solid var(--palette-c5);
+}
+
+.footer__social-link:hover:not(:focus-visible) svg path {
+  fill: var(--palette-c5);
+}
+
+.footer__input:hover:not(:focus-visible) {
+  background-color: var(--palette-c9);
+}
+
